@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;800&display=swap');
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+p {
+  margin-top: 25px;
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+  /* ch is characters */
+}
+
+blockquote {
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  padding: 48px;
+  /* pushing the text over to the right */
+}

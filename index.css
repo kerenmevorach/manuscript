@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Glegoo', serif;
+  height: 100%;
+  background-color: rgb(34, 34, 34);
 }
 
 .container {
@@ -15,6 +17,7 @@ body {
 .article {
   /* background-color: red; */
   left: 0px;
+  background-color: white;
 }
 
 .response {
@@ -22,7 +25,10 @@ body {
   /* background-color: rgb(235, 235, 235); */
   right: 0px;
   color: white;
-  /* height: 200%; */
+}
+
+.black-bkg {
+  background-color: rgb(34, 34, 34);
 }
 
 h1 {
@@ -37,10 +43,10 @@ h2 {
   margin-top: -1.5vw;
 }
 
-h2 {
-  font-size: 1.75vw;
+h3 {
+  font-size: 1.25vw;
   text-align: center;
-  margin-top: -1.5vw;
+  margin-top: -1.2vw;
 }
 
 p {
@@ -49,7 +55,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.45vw;
-  line-height: 2.2vw;
+  line-height: 2.5vw;
   font-family: sans-serif;
   font-family: 'Gothic A1', sans-serif;
   /* white-space: normal; */
@@ -57,7 +63,7 @@ p {
 }
 
 .tag {
-  width: 30vw;
+  width: 34vw;
   /* height: ; */
   padding: 30px;
   border: 1.5px solid black;
@@ -98,7 +104,7 @@ em {
 
 blockquote {
   font-size: 1.45vw;
-  line-height: 2.2vw;
+  line-height: 2.5vw;
   font-family: 'Gothic A1', sans-serif;
   font-style: italic;
   max-width: 45ch;
@@ -114,11 +120,13 @@ main {
 
 .vertical-line {
   width: 1px;
-  height: 10990px;
+  height: 100%;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 30px; */
+  position: fixed;
+  right: 25%;
 }
 
 sup {
@@ -127,7 +135,7 @@ sup {
 }
 
 .responsefirstpar {
-  margin-top: 1.5vw;
+  margin-top: 1.1vw;
 }
 
 .articlefirstpar {
@@ -141,4 +149,36 @@ sup {
   margin-left: auto;
   margin-right: auto;
   margin-top: 55px;
+}
+
+.footnotes {
+  margin-top: 30px;
+  height: 10px;
+  padding: 22px;
+}
+
+.footnote-text {
+  font-size: 1.2vw;
+  line-height: 2vw;
+  max-width: 54ch;
+  margin-bottom: 0.75vw;
+}
+
+.last-footnote {
+  margin-bottom: 5vw;
+}
+
+.backtotop {
+  text-align: center;
+  font-size: 1.5vw;
+  border: 1.5px solid white;
+  width: 3vw;
+  height: 3vw;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 20px;
+  padding: 0px;
+  text-decoration: none;
+  color: white;
 }

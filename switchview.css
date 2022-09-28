@@ -3,7 +3,8 @@
 body {
   font-family: 'Glegoo', serif;
   height: 100%;
-  background-color: rgb(34, 34, 34);
+  background-color: white;
+  color: white;
 }
 
 .container {
@@ -17,18 +18,18 @@ body {
 .article {
   /* background-color: red; */
   left: 0px;
-  background-color: white;
+  background-color: rgb(34, 34, 34);
 }
 
 .response {
-  background-color: rgb(34, 34, 34);
+  background-color: white;
   /* background-color: rgb(235, 235, 235); */
   right: 0px;
-  color: white;
+  color: rgb(34, 34, 34);
 }
 
 .black-bkg {
-  background-color: rgb(34, 34, 34);
+  background-color: white;
 }
 
 h1 {
@@ -66,7 +67,7 @@ p {
   width: 34vw;
   /* height: ; */
   padding: 30px;
-  border: 1.5px solid black;
+  border: 1.5px solid white;
   border-radius: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -81,12 +82,12 @@ p {
 .subtitle2 {
   margin-top: 40px;
   height: 40px;
-  border: 1.5px solid white;
+  border: 1.5px solid black;
 }
 
 .title2 {
-  color: white;
-  border: 1.5px solid white;
+  color: black;
+  border: 1.5px solid black;
 }
 
 a {
@@ -121,7 +122,7 @@ main {
 .vertical-line {
   width: 1px;
   height: 100%;
-  background-color: white;
+  background-color: black;
   /* margin-left: auto;
   margin-right: auto; */
   /* margin-top: 30px; */
@@ -145,7 +146,7 @@ sup {
 .line {
   width: 100px;
   height: 1.5px;
-  background-color: black;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
   margin-top: 55px;
@@ -171,7 +172,7 @@ sup {
 .backtotop {
   text-align: center;
   font-size: 1.5vw;
-  border: 1.5px solid white;
+  border: 1.5px solid black;
   width: 3vw;
   height: 3vw;
   position: fixed;
@@ -180,23 +181,23 @@ sup {
   margin: 20px;
   padding: 0px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
+
 
 .switch{
-  text-align: center;
-  font-size: 0.8vw;
-  line-height: 2.7vw;
-  border: 1.5px solid black;
-  width: 5vw;
-  height: 3vw;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  margin: 20px;
-  padding: 0px;
-  text-decoration: none;
-  color: black;
-  border: 1px solid black;
-
-}
+    text-align: center;
+    font-size: 0.8vw;
+    line-height: 2.7vw;
+    border: 1.5px solid white;
+    width: 5vw;
+    height: 3vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 20px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+  }
